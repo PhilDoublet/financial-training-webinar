@@ -98,7 +98,10 @@
 	width: 300px;
 }
 
-nav,
+nav {
+	margin-bottom: 1rem;
+}
+
 h1 {
 	margin-bottom: 6rem;
 }
@@ -148,10 +151,7 @@ h1 {
 /* --- HERO ------------------------- */
 
 .hero {
-	/* 
-	When video:
-	padding-block: 1.75rem 14.25rem; */
-	padding-block: 1.75rem 3.5rem;
+	padding-block: 1.75rem 9rem;
 }
 
 .hero-subtitle {
@@ -162,15 +162,21 @@ h1 {
 .hero .hero-flex {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 	gap: 5rem;
 }
 
 .hero .hero-text {
-	flex-basis: 38.5rem;
+	flex-basis: 53rem;
 }
 
 .hero .hero-video {
 	flex: 1;
+}
+
+video {
+	max-height: 815px;
+	align-self: flex-end;
 }
 
 .hero .btn {
